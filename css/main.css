@@ -1,3 +1,50 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 @font-face {
   font-family: "Cinzel Black";
   src: url("../fonts/Cinzel-Black.ttf"); }
@@ -11,16 +58,79 @@
   font-family: "Copperplate Gothic Bold Regular";
   src: url("../fonts/CopperplateGothicBoldRegular.ttf"); }
 @font-face {
-  font-family: "Merriweather Regular";
-  src: url("../fonts/Merriweather regular.ttf"); }
+  font-family: "Libre Baskerville Bold";
+  src: url("../fonts/LibreBaskerville-Bold.ttf"); }
 @font-face {
-  font-family: "Merriweather Light";
-  src: url("../fonts/Merriweather-Light.ttf"); }
+  font-family: "Libre Baskerville Regular";
+  src: url("../fonts/LibreBaskerville-Regular.ttf"); }
+@font-face {
+  font-family: "Roboto Slab Bold";
+  src: url("../fonts/RobotoSlab-Bold.ttf"); }
+@font-face {
+  font-family: "Roboto Slab Regular";
+  src: url("../fonts/RobotoSlab-Regular.ttf"); }
+@font-face {
+  font-family: "Roboto Slab Light";
+  src: url("../fonts/RobotoSlab-Light.ttf"); }
+body {
+  font-size: 16px; }
+
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-family: Cinzel Bold; }
+
+h2 {
+  font-size: 2.625rem;
+  line-height: 3rem;
+  font-family: Libre Baskerville Regular;
+  text-shadow: .5px .5px white; }
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: Cinzel Bold; }
+
+.collage-image {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  font-family: Libre Baskerville Regular;
+  text-shadow: .5px .5px white; }
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  font-family: Copperplate Gothic Bold Regular; }
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  font-family: Roboto Slab Light; }
+
+.intext-picture {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: Roboto Slab Light; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background: #331832; }
 
+.splash {
+  background-image: url("../img/bach and tupac 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center; }
+
 .enter {
-  color: white;
-  font-family: Merriweather Light; }
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

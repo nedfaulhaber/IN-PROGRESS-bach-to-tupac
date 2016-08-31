@@ -7,9 +7,8 @@
   }
 }
 
-@mixin text($size, $height: null, $weight: null, $color: null) {
+@mixin text($size, $height, $family) {
   font-size: $size;
   line-height: $height;
-  font-weight: $weight;
-  color: $color;
+  font-family: $family;
 }
